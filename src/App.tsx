@@ -1,11 +1,7 @@
-import React from "react";
+import Map from './components/Map';
 
 function App() {
-  return (
-    <div className="w-full h-full flex items-center justify-center text-xl text-gray-800">
-      Interactive US Map Coming Soon
-    </div>
-  );
+  return <Map />;
 }
 
 export default App;
